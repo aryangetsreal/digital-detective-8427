@@ -21,7 +21,7 @@ Repository name: `digital-detective-8427`. The suffix matches the last four USN 
 | 01 | [Know your computer](mission-01-computer/README.md) | Completed |
 | 02 | [Become comfortable with the Terminal](mission-02-terminal/README.md) | Completed |
 | 03 | [Understand the operating system](mission-03-operating-system/README.md) | Completed |
-| 04 | [How programs run](mission-04-programs/README.md) | Not started |
+| 04 | [How programs run](mission-04-programs/README.md) | Completed |
 | 05 | [Numbers and data](mission-05-numbers-data/README.md) | Not started |
 | 06 | [Git and GitHub](mission-06-git-github/README.md) | Not started |
 | 07 | [How computers communicate](mission-07-networking/README.md) | Not started |
@@ -29,7 +29,7 @@ Repository name: `digital-detective-8427`. The suffix matches the last four USN 
 
 ## Project organization
 
-Each mission has its own folder and README. Mission 0 creates the workspace and templates. Missions 1–8 are not started. The empty `mission-05-numbers-data/number_converter.py` is the file scaffold required by Mission 0; the converter will be written during Mission 5. The `evidence/` folder is reserved for privacy-safe screenshots or selected output. Its `.gitkeep` file lets Git preserve the empty folder.
+Each mission has its own folder and README. Missions 0–4 are complete. Missions 5–8 still contain templates. The empty `mission-05-numbers-data/number_converter.py` was created during setup and will be written during Mission 5. Evidence folders hold privacy-safe screenshots or selected command output.
 
 Each completed mission must have its own meaningful commit and verified push. The later mission templates belong to the setup scaffold and do not count as completed missions. Complete, document, commit, push and verify the current mission before starting the next.
 
@@ -48,4 +48,4 @@ Each completed mission must have its own meaningful commit and verified push. Th
 
 [To be written in my own words during Mission 8 after completing the assignment.]
 
-Current checkpoint: Mission 0 setup is complete. The [public repository](https://github.com/aryangetsreal/digital-detective-8427) and [setup commit](https://github.com/aryangetsreal/digital-detective-8427/commit/121ff322def414f7e9a0b70c28e5ead7bd6a7684) were verified on GitHub. Take a 10-minute break after Mission 0 is complete; Mission 1 has not been started.
+Current checkpoint: Missions 0–4 are complete. Mission 5 has not been started. Take a 10-minute break before starting the next mission.

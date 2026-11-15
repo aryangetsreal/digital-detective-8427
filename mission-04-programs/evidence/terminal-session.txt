@@ -1,0 +1,24 @@
+Mission 4 actual command evidence
+Working directory: mission-04-programs/ (relative to project root)
+Commands were run in macOS zsh using the coding assistant.
+
+$ python3 --version
+Exit status: 0
+STDOUT:
+Python 3.9.6
+STDERR:
+(no output)
+
+$ python3 -c 'import platform; print(platform.python_implementation())'
+Exit status: 0
+STDOUT:
+CPython
+STDERR:
+(no output)
+
+$ python3 hello.py
+Exit status: 0
+STDOUT:
+Hello from Python
+STDERR:
+(no output)
