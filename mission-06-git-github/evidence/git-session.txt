@@ -1,0 +1,424 @@
+Mission 6 actual Git and GitHub evidence
+Codex executed the commands in macOS zsh. [PROJECT] and [HOME] replace private paths. Trailing line spaces are omitted.
+
+$ pwd
+Exit status: 0
+STDOUT:
+[PROJECT]
+STDERR:
+(no output)
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+STDERR:
+(no output)
+
+$ git branch
+Exit status: 0
+STDOUT:
+* main
+STDERR:
+(no output)
+
+$ git log --oneline -5
+Exit status: 0
+STDOUT:
+f4b238d Complete numbers and data mission
+0ad93de Complete program execution mission
+3b111b7 Complete operating system exploration mission
+7264468 Complete terminal basics and file operations
+58abade Complete computer basics and IPOS mission
+STDERR:
+(no output)
+
+$ git remote -v
+Exit status: 0
+STDOUT:
+origin	https://github.com/aryangetsreal/digital-detective-8427.git (fetch)
+origin	https://github.com/aryangetsreal/digital-detective-8427.git (push)
+STDERR:
+(no output)
+
+$ git branch --all
+Exit status: 0
+STDOUT:
+* main
+  remotes/origin/main
+STDERR:
+(no output)
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mission-06-git-github/README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mission-06-git-github/evidence/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+STDERR:
+(no output)
+
+$ git add -- mission-06-git-github/README.md
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   mission-06-git-github/README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mission-06-git-github/evidence/
+
+STDERR:
+(no output)
+
+$ git diff --cached --check
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+$ git commit -m "Document basic Git workflow"
+Exit status: 0
+STDOUT:
+[main 6e4ee02] Document basic Git workflow
+ 1 file changed, 36 insertions(+), 10 deletions(-)
+STDERR:
+(no output)
+
+$ git log --oneline -5
+Exit status: 0
+STDOUT:
+6e4ee02 Document basic Git workflow
+f4b238d Complete numbers and data mission
+0ad93de Complete program execution mission
+3b111b7 Complete operating system exploration mission
+7264468 Complete terminal basics and file operations
+STDERR:
+(no output)
+
+$ git push origin main
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+To https://github.com/aryangetsreal/digital-detective-8427.git
+   f4b238d..6e4ee02  main -> main
+
+$ git branch update-about
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+$ git checkout update-about
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+Switched to branch 'update-about'
+
+$ git branch
+Exit status: 0
+STDOUT:
+  main
+* update-about
+STDERR:
+(no output)
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch update-about
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mission-06-git-github/evidence/
+
+nothing added to commit but untracked files present (use "git add" to track)
+STDERR:
+(no output)
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch update-about
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mission-06-git-github/evidence/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+STDERR:
+(no output)
+
+$ git diff -- README.md
+Exit status: 0
+STDOUT:
+diff --git a/README.md b/README.md
+index a83e81f..8691151 100644
+--- a/README.md
++++ b/README.md
+@@ -4,6 +4,11 @@ This first-year CSE assignment explores how a computer works through a series of
+
+ Repository name: `digital-detective-8427`. The suffix matches the last four USN digits, confirmed by the student. Full student details are omitted for privacy.
+
++## My Learning
++
++- I learned that a program is basically a set of instructions written in a programming language.
++- I learned that the same number can be written in decimal, binary and hexadecimal.
++
+ ## Assignment objectives
+
+ - Understand computer input, processing, output and storage.
+STDERR:
+(no output)
+
+$ git add -- README.md
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch update-about
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mission-06-git-github/evidence/
+
+STDERR:
+(no output)
+
+$ git diff --cached --check
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+$ git commit -m "Add My Learning section"
+Exit status: 0
+STDOUT:
+[update-about 1b2e691] Add My Learning section
+ 1 file changed, 5 insertions(+)
+STDERR:
+(no output)
+
+$ git log --oneline -3
+Exit status: 0
+STDOUT:
+1b2e691 Add My Learning section
+6e4ee02 Document basic Git workflow
+f4b238d Complete numbers and data mission
+STDERR:
+(no output)
+
+$ git push origin update-about
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+remote:
+remote: Create a pull request for 'update-about' on GitHub by visiting:
+remote:      https://github.com/aryangetsreal/digital-detective-8427/pull/new/update-about
+remote:
+To https://github.com/aryangetsreal/digital-detective-8427.git
+ * [new branch]      update-about -> update-about
+
+$ open https://github.com/aryangetsreal/digital-detective-8427
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+$ gh pr create --repo aryangetsreal/digital-detective-8427 --base main --head update-about --title 'Add My Learning section' --body-file mission-06-git-github/.pr-body.txt
+Exit status: 0
+STDOUT:
+https://github.com/aryangetsreal/digital-detective-8427/pull/1
+STDERR:
+(no output)
+
+$ gh pr view https://github.com/aryangetsreal/digital-detective-8427/pull/1 --json number,title,url,state,baseRefName,headRefName,headRefOid,body,files
+Exit status: 0
+STDOUT:
+{"baseRefName":"main","body":"Adds a My Learning section to the root README with two short learning points from the completed missions.\n\nThis is the Mission 6 branch and Pull Request exercise. Only README.md changes. The PR is left open for review.\n","files":[{"path":"README.md","additions":5,"deletions":0,"changeType":"MODIFIED"}],"headRefName":"update-about","headRefOid":"1b2e69182e99f8fd55b3b91e68e0443c82a67102","number":1,"state":"OPEN","title":"Add My Learning section","url":"https://github.com/aryangetsreal/digital-detective-8427/pull/1"}
+STDERR:
+(no output)
+
+$ gh pr diff https://github.com/aryangetsreal/digital-detective-8427/pull/1 --color never
+Exit status: 0
+STDOUT:
+diff --git a/README.md b/README.md
+index a83e81f..8691151 100644
+--- a/README.md
++++ b/README.md
+@@ -4,6 +4,11 @@ This first-year CSE assignment explores how a computer works through a series of
+
+ Repository name: `digital-detective-8427`. The suffix matches the last four USN digits, confirmed by the student. Full student details are omitted for privacy.
+
++## My Learning
++
++- I learned that a program is basically a set of instructions written in a programming language.
++- I learned that the same number can be written in decimal, binary and hexadecimal.
++
+ ## Assignment objectives
+
+ - Understand computer input, processing, output and storage.
+STDERR:
+(no output)
+
+$ gh api repos/aryangetsreal/digital-detective-8427/commits/main --jq .sha
+Exit status: 0
+STDOUT:
+6e4ee0228517baac04bf0b9d24132468981ccb46
+STDERR:
+(no output)
+
+$ git log main -1 --format=%H
+Exit status: 0
+STDOUT:
+6e4ee0228517baac04bf0b9d24132468981ccb46
+STDERR:
+(no output)
+
+$ git checkout main
+Exit status: 0
+STDOUT:
+Your branch is up to date with 'origin/main'.
+STDERR:
+Switched to branch 'main'
+
+$ git pull origin main
+Exit status: 0
+STDOUT:
+Already up to date.
+STDERR:
+From https://github.com/aryangetsreal/digital-detective-8427
+ * branch            main       -> FETCH_HEAD
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mission-06-git-github/evidence/
+
+nothing added to commit but untracked files present (use "git add" to track)
+STDERR:
+(no output)
+
+$ git branch --all
+Exit status: 0
+STDOUT:
+* main
+  update-about
+  remotes/origin/main
+  remotes/origin/update-about
+STDERR:
+(no output)
+
+$ git log --oneline -5
+Exit status: 0
+STDOUT:
+6e4ee02 Document basic Git workflow
+f4b238d Complete numbers and data mission
+0ad93de Complete program execution mission
+3b111b7 Complete operating system exploration mission
+7264468 Complete terminal basics and file operations
+STDERR:
+(no output)
+
+$ gh pr view 1 --repo aryangetsreal/digital-detective-8427 --json number,title,url,state,baseRefName,headRefName,headRefOid,body,files,mergedAt,mergeCommit
+Exit status: 0
+STDOUT:
+{"baseRefName":"main","body":"Adds a My Learning section to the root README with two short learning points from the completed missions.\n\nThis is the Mission 6 branch and Pull Request exercise. Only README.md changes. The PR is left open for review.\n","files":[{"path":"README.md","additions":5,"deletions":0,"changeType":"MODIFIED"}],"headRefName":"update-about","headRefOid":"1b2e69182e99f8fd55b3b91e68e0443c82a67102","mergeCommit":{"oid":"07b816ae6d8cf9634dc19605b7c1b92cea9f7ab5"},"mergedAt":"2026-11-15T16:27:13Z","number":1,"state":"MERGED","title":"Add My Learning section","url":"https://github.com/aryangetsreal/digital-detective-8427/pull/1"}
+STDERR:
+(no output)
+
+$ git pull origin main
+Exit status: 0
+STDOUT:
+Updating 6e4ee02..07b816a
+Fast-forward
+ README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+STDERR:
+From https://github.com/aryangetsreal/digital-detective-8427
+ * branch            main       -> FETCH_HEAD
+   6e4ee02..07b816a  main       -> origin/main
+
+$ git status
+Exit status: 0
+STDOUT:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mission-06-git-github/README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mission-06-git-github/evidence/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+STDERR:
+(no output)
+
+$ git log --oneline -5
+Exit status: 0
+STDOUT:
+07b816a Merge pull request #1 from aryangetsreal/update-about
+1b2e691 Add My Learning section
+6e4ee02 Document basic Git workflow
+f4b238d Complete numbers and data mission
+0ad93de Complete program execution mission
+STDERR:
+(no output)
+
+$ git log main -1 --format=%H
+Exit status: 0
+STDOUT:
+07b816ae6d8cf9634dc19605b7c1b92cea9f7ab5
+STDERR:
+(no output)

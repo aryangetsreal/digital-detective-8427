@@ -1,0 +1,22 @@
+{
+  "baseRefName": "main",
+  "body": "Adds a My Learning section to the root README with two short learning points from the completed missions.\n\nThis is the Mission 6 branch and Pull Request exercise. Only README.md changes. The PR is left open for review.\n",
+  "files": [
+    {
+      "path": "README.md",
+      "additions": 5,
+      "deletions": 0,
+      "changeType": "MODIFIED"
+    }
+  ],
+  "headRefName": "update-about",
+  "headRefOid": "1b2e69182e99f8fd55b3b91e68e0443c82a67102",
+  "mergeCommit": {
+    "oid": "07b816ae6d8cf9634dc19605b7c1b92cea9f7ab5"
+  },
+  "mergedAt": "2026-11-15T16:27:13Z",
+  "number": 1,
+  "state": "MERGED",
+  "title": "Add My Learning section",
+  "url": "https://github.com/aryangetsreal/digital-detective-8427/pull/1"
+}

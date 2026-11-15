@@ -28,13 +28,13 @@ Repository name: `digital-detective-8427`. The suffix matches the last four USN 
 | 03 | [Understand the operating system](mission-03-operating-system/README.md) | Completed |
 | 04 | [How programs run](mission-04-programs/README.md) | Completed |
 | 05 | [Numbers and data](mission-05-numbers-data/README.md) | Completed |
-| 06 | [Git and GitHub](mission-06-git-github/README.md) | Not started |
+| 06 | [Git and GitHub](mission-06-git-github/README.md) | Completed |
 | 07 | [How computers communicate](mission-07-networking/README.md) | Not started |
 | 08 | [Final report and submission](mission-08-final-report/README.md) | Not started |
 
 ## Project organization
 
-Each mission has its own folder and README. Missions 0–5 are complete. Missions 6–8 still contain templates. The [number converter](mission-05-numbers-data/number_converter.py) uses functions and while loops to convert decimal integers to binary and hexadecimal. The Mission 5 README also demonstrates Python's built-in `bin()` and `hex()` functions. Evidence folders hold privacy-safe screenshots or selected command output.
+Each mission has its own folder and README. Missions 0–6 are complete. Missions 7–8 still contain templates. The [number converter](mission-05-numbers-data/number_converter.py) uses functions and while loops to convert decimal integers to binary and hexadecimal. The Mission 5 README also demonstrates Python's built-in `bin()` and `hex()` functions. Evidence folders hold privacy-safe screenshots or selected command output.
 
 Each completed mission must have its own meaningful commit and verified push. The later mission templates belong to the setup scaffold and do not count as completed missions. Complete, document, commit, push and verify the current mission before starting the next.
 
@@ -53,4 +53,4 @@ Each completed mission must have its own meaningful commit and verified push. Th
 
 [To be written in my own words during Mission 8 after completing the assignment.]
 
-Current checkpoint: Missions 0–5 are complete. Mission 6 has not been started. Take a 10-minute break before starting the next mission.
+Current checkpoint: Missions 0–6 are complete. Mission 7 has not been started. Take a 10-minute break before starting the next mission.
