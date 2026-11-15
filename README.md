@@ -18,8 +18,8 @@ Repository name: `digital-detective-8427`. The suffix matches the last four USN 
 | Mission | Topic | Status |
 | --- | --- | --- |
 | 00 | [Create your GitHub workspace](mission-00-setup/README.md) | Complete; setup commit pushed and verified |
-| 01 | [Know your computer](mission-01-computer/README.md) | Not started |
-| 02 | [Become comfortable with the Terminal](mission-02-terminal/README.md) | Not started |
+| 01 | [Know your computer](mission-01-computer/README.md) | Completed |
+| 02 | [Become comfortable with the Terminal](mission-02-terminal/README.md) | Completed |
 | 03 | [Understand the operating system](mission-03-operating-system/README.md) | Not started |
 | 04 | [How programs run](mission-04-programs/README.md) | Not started |
 | 05 | [Numbers and data](mission-05-numbers-data/README.md) | Not started |
