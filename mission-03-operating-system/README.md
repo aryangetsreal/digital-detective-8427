@@ -158,7 +158,8 @@ The transcript includes the four relevant `top` summary lines and selected `ps` 
 - Commit message: `Complete operating system exploration mission`.
 - Scope: Mission 3 documentation, evidence and practice files, plus the approved root Mission 3 status update.
 - Branch: `main`.
-- Publishing: authorized for the approved files on `origin/main`.
-- The actual commit hash and verified push result will be recorded in the completion report after publishing. The commit can also be found through the mission history link above.
+- Commit hash: `3b111b7fcf3cddd51615c2e766a603fa500e7283`.
+- Push status: Verified on GitHub `main`; the published commit and files were checked during the final review.
+- [Published commit](https://github.com/aryangetsreal/digital-detective-8427/commit/3b111b7fcf3cddd51615c2e766a603fa500e7283).
 
 Verification compares the local and remote hashes, checks the public repository and published README, and confirms a clean working tree.

@@ -129,7 +129,8 @@ No screenshots were required or created. Historical status outputs describe the 
 - PR #1: merged on GitHub, from `update-about` into `main`; merge commit `07b816ae6d8cf9634dc19605b7c1b92cea9f7ab5`. I manually merged it using GitHub's interface.
 - Final documentation commit message: `Complete Git and GitHub mission`.
 - Current branch: `main`.
-- Final documentation and root progress update: approved for publishing on `origin/main`.
-- The actual final commit hash and verified push result will be recorded in the completion report after publishing.
+- Commit hash: `b4c37d825075cf97c06784bb488f05f6c7c07628`.
+- Push status: Verified on GitHub `main`; the published commit and files were checked during the final review.
+- [Published commit](https://github.com/aryangetsreal/digital-detective-8427/commit/b4c37d825075cf97c06784bb488f05f6c7c07628).
 
 The two earlier commits are required Git exercises. Final verification checks the published files, matching local and remote commits, public visibility and a clean working tree. The existing branch, PR and merge history are preserved.

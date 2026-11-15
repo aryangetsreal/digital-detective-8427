@@ -143,7 +143,8 @@ No screenshots were created. The transcript preserves the actual run; it does no
 - Commit message: `Complete terminal basics and file operations`.
 - Scope: Mission 2 README, practice files and transcript, plus the approved root README mission-status corrections.
 - Branch: `main`.
-- Publishing: authorized for the reviewed files only.
-- The actual commit hash and verified push result will be recorded in the completion report after publishing. The commit can also be found using the mission history link above.
+- Commit hash: `726446883ca63d93fbaa70b7d23453f1b83a7223`.
+- Push status: Verified on GitHub `main`; the published commit and files were checked during the final review.
+- [Published commit](https://github.com/aryangetsreal/digital-detective-8427/commit/726446883ca63d93fbaa70b7d23453f1b83a7223).
 
 Verification compares the local and remote hashes, checks public visibility and the published README, and confirms a clean working tree before reporting success.

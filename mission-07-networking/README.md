@@ -116,7 +116,8 @@ DNS resolver details were redacted before saving. No interface listing, Wi-Fi na
 - Commit message: `Complete networking mission`.
 - Scope: approved Mission 7 files and approved root README status and progress corrections.
 - Branch: `main`.
-- Publishing: authorized for the approved files on `origin/main`.
-- The actual commit hash and verified push result will be recorded in the completion report after publishing. The commit can also be found through the mission history link above.
+- Commit hash: `df0b6caaef6c907c58a349254153f7b31c750f63`.
+- Push status: Verified on GitHub `main`; the published commit and files were checked during the final review.
+- [Published commit](https://github.com/aryangetsreal/digital-detective-8427/commit/df0b6caaef6c907c58a349254153f7b31c750f63).
 
 Verification checks the published README and evidence, public visibility, matching local and remote commits, and a clean working tree before reporting success.

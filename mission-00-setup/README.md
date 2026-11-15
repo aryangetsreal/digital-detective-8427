@@ -66,12 +66,12 @@ With permission, OCR was retried outside the sandbox and all 12 pages were read.
 
 ## 7. Evidence / files
 
-- [Root README](../README.md): assignment overview, mission index, tool checks and final summary placeholder.
-- This README: setup work, actual checks, understanding and pending steps.
-- [Directory structure](../evidence/mission-00-structure.txt): complete project scaffold; Git internals are excluded.
-- [Empty converter scaffold](../mission-05-numbers-data/number_converter.py): reserved for Mission 5.
+- [Root README](../README.md): assignment overview, mission index, tool checks and learning summary.
+- This README: setup work, actual checks and understanding.
+- [Setup-time directory structure](../evidence/mission-00-structure.txt): the original scaffold; Git internals are excluded. Later approved changes are recorded in subsequent missions.
+- [Converter file](../mission-05-numbers-data/number_converter.py): created empty during Mission 0 and implemented during Mission 5.
 - [Ignore rules](../.gitignore): common local files excluded from version control.
-- All nine mission README files are linked from the root README. Missions 1–8 contain templates only.
+- All nine mission README files are linked from the root README. At the setup checkpoint, Missions 1–8 contained templates only; current progress is shown in the root README.
 
 No screenshots were taken. No passwords, tokens, full USN, private account email or computer/network identifiers are included in the setup files.
 
@@ -92,4 +92,4 @@ No screenshots were taken. No passwords, tokens, full USN, private account email
 
 The setup commit hash above was recorded after its push was verified. This documentation correction uses the separate message `Record verified Mission 0 publishing details`. Its final hash is available from Git history; a commit cannot contain its own final hash.
 
-Mission 0 setup is complete: the public repository and setup commit were verified on GitHub, and the project was opened in Terminal and VS Code. Review these notes so you can explain the work yourself. Take a 10-minute break before starting Mission 1. Missions 1–8 have not been started.
+Mission 0 setup was completed and verified on GitHub, and the project was opened in Terminal and VS Code. At that setup checkpoint, Missions 1–8 had not started. Current progress is recorded in the root README.

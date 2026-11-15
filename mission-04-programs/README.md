@@ -98,7 +98,8 @@ The PDF does not require screenshots, a compiled program or an error experiment 
 - Commit message: `Complete program execution mission`.
 - Scope: Mission 4 README, `hello.py`, command transcript and the approved root README status and progress corrections.
 - Branch: `main`.
-- Publishing: authorized for the approved files on `origin/main`.
-- The actual commit hash and verified push result will be recorded in the completion report after publishing. The commit can also be found through the mission history link above.
+- Commit hash: `0ad93de4573547d5126e56187243d2d20e9b836e`.
+- Push status: Verified on GitHub `main`; the published commit and files were checked during the final review.
+- [Published commit](https://github.com/aryangetsreal/digital-detective-8427/commit/0ad93de4573547d5126e56187243d2d20e9b836e).
 
 Verification compares the local and remote hashes, checks the public repository and published README, and confirms a clean working tree.

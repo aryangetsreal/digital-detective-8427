@@ -1,0 +1,89 @@
+Mission 8 final review evidence
+These audit notes record the pre-approval review checkpoint. References to drafts and unstaged changes describe that historical checkpoint, not the final publishing state.
+Codex ran the program checks using macOS zsh. Working directories below are relative to the repository.
+Existing mission sources and evidence were not changed for these checks.
+
+Earlier repository audit results:
+- Starting branch: main; working tree clean.
+- Local and GitHub main: df0b6caaef6c907c58a349254153f7b31c750f63.
+- Repository public; all 29 published files match local Git blobs.
+- Nine mission README files found, each with the nine required section headings.
+- 51 existing relative Markdown links resolve; required Python sources and evidence exist.
+- PR #1 is merged: 07b816ae6d8cf9634dc19605b7c1b92cea9f7ab5.
+- Prior documentation issues and approved PDF departures are recorded in the final report.
+
+Working directory: mission-04-programs
+$ python3 hello.py
+STDIN:
+(none)
+Exit status: 0
+STDOUT:
+Hello from Python
+STDERR:
+(no output)
+
+Working directory: mission-05-numbers-data
+$ python3 number_converter.py
+STDIN:
+13
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b1101
+Hexadecimal: 0xd
+STDERR:
+(no output)
+
+Working directory: mission-05-numbers-data
+$ python3 number_converter.py
+STDIN:
+25
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b11001
+Hexadecimal: 0x19
+STDERR:
+(no output)
+
+Working directory: mission-05-numbers-data
+$ python3 number_converter.py
+STDIN:
+31
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b11111
+Hexadecimal: 0x1f
+STDERR:
+(no output)
+
+Working directory: mission-05-numbers-data
+$ python3 number_converter.py
+STDIN:
+0
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b0
+Hexadecimal: 0x0
+STDERR:
+(no output)
+
+Working directory: mission-05-numbers-data
+$ python3 number_converter.py
+STDIN:
+-1
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: -0b1
+Hexadecimal: -0x1
+STDERR:
+(no output)
+
+Additional read-only audit results:
+- Scanned 43 distinct file versions across all 12 commits: no token/private-path pattern findings.
+- Merge commit 07b816ae6d8cf9634dc19605b7c1b92cea9f7ab5 contains a non-noreply author or committer email; value omitted.
+- Approved historical-setup and commit/push wording corrections were applied to READMEs only.
+- All 19 existing tracked non-README source/evidence/support files remain byte-for-byte unchanged.
+- Student confirmed no personal difficulties and that college submission has not happened yet.
+- Final prepared review: 56 relative links resolve; 22 GitHub Markdown links reviewed; all 12 local main-history commits are published.
+- All 30 Markdown tables passed structure checks; the new root and Mission 8 tables rendered correctly.
+- Nine READMEs contain the nine nonempty required sections. The Mission 8 understanding draft is 98 words.
+- Proposed final commit contains 11 files: root README, nine mission READMEs and this new evidence file. Nothing is staged.

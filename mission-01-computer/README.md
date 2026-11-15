@@ -115,4 +115,6 @@ Not applicable.
 - Scope: this Mission 1 README, removal of the old `mission-01-computer-basics/README.md` path, and the approved root README navigation link correction.
 - Branch: `main`.
 - Remote: `origin`, at https://github.com/aryangetsreal/digital-detective-8427.
-- Publishing is authorized after the final checks pass. The actual commit hash, push result and remote verification will be recorded in the completion report after publishing.
+- Commit hash: `58abade2f6d3a53a9e82d9a3614bef5660592a2f`.
+- Push status: Verified on GitHub `main`; the published commit and files were checked during the final review.
+- [Published commit](https://github.com/aryangetsreal/digital-detective-8427/commit/58abade2f6d3a53a9e82d9a3614bef5660592a2f).

@@ -211,7 +211,8 @@ No screenshots were required or created. The arithmetic working is recorded in t
 - Commit message: `Complete numbers and data mission`.
 - Scope: approved Mission 5 files and the root README mission status, progress and converter-description corrections.
 - Branch: `main`.
-- Publishing: authorized for the approved files on `origin/main`.
-- The actual commit hash and verified push result will be recorded in the completion report after publishing. The commit can also be found through the mission history link above.
+- Commit hash: `f4b238d01886090cf9a6690dbe43a8bb792d0274`.
+- Push status: Verified on GitHub `main`; the published commit and files were checked during the final review.
+- [Published commit](https://github.com/aryangetsreal/digital-detective-8427/commit/f4b238d01886090cf9a6690dbe43a8bb792d0274).
 
 Verification checks the published files, public visibility, matching local and remote commits, and a clean working tree before reporting success.
