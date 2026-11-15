@@ -4,6 +4,11 @@ This first-year CSE assignment explores how a computer works through a series of
 
 Repository name: `digital-detective-8427`. The suffix matches the last four USN digits, confirmed by the student. Full student details are omitted for privacy.
 
+## My Learning
+
+- I learned that a program is basically a set of instructions written in a programming language.
+- I learned that the same number can be written in decimal, binary and hexadecimal.
+
 ## Assignment objectives
 
 - Understand computer input, processing, output and storage.
