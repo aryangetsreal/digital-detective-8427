@@ -1,0 +1,121 @@
+Converter runs below were freshly executed from the loop-based source. The earlier version check and interactive conversion/encoding evidence are preserved.
+
+Mission 5 actual Python evidence
+Working directory: mission-05-numbers-data/ (relative to project root)
+Commands ran in macOS zsh using Codex. No manual student terminal session is claimed.
+Interactive checks use python3 -q -i; stdout and stderr are recorded separately, so prompts appear under stderr.
+Converter stdin is recorded separately because piped input is not echoed in stdout. Trailing prompt spaces are omitted.
+
+$ python3 --version
+STDIN:
+(none)
+Exit status: 0
+STDOUT:
+Python 3.9.6
+STDERR:
+(no output)
+
+$ python3 -q -i
+STDIN:
+bin(13)
+bin(25)
+int("1010", 2)
+int("1101", 2)
+int("A", 16)
+int("1F", 16)
+hex(10)
+hex(31)
+hex(int("1111", 2))
+ord("A")
+ord("a")
+ord("é")
+format(ord("é"), "04X")
+list("A".encode("utf-8"))
+list("a".encode("utf-8"))
+list("é".encode("utf-8"))
+"é".encode("utf-8").hex(" ")
+exit()
+Exit status: 0
+STDOUT:
+'0b1101'
+'0b11001'
+10
+13
+10
+31
+'0xa'
+'0x1f'
+'0xf'
+65
+97
+233
+'00E9'
+[65]
+[97]
+[195, 169]
+'c3 a9'
+STDERR:
+>>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>>
+$ python3 number_converter.py
+STDIN:
+13
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b1101
+Hexadecimal: 0xd
+STDERR:
+(no output)
+
+$ python3 number_converter.py
+STDIN:
+25
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b11001
+Hexadecimal: 0x19
+STDERR:
+(no output)
+
+$ python3 number_converter.py
+STDIN:
+31
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b11111
+Hexadecimal: 0x1f
+STDERR:
+(no output)
+
+$ python3 number_converter.py
+STDIN:
+0
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: 0b0
+Hexadecimal: 0x0
+STDERR:
+(no output)
+
+$ python3 number_converter.py
+STDIN:
+-1
+Exit status: 0
+STDOUT:
+Enter a decimal integer: Binary: -0b1
+Hexadecimal: -0x1
+STDERR:
+(no output)
+
+$ python3 -q -i
+STDIN:
+print(13, bin(13), hex(13))
+print(25, bin(25), hex(25))
+print(31, bin(31), hex(31))
+exit()
+Exit status: 0
+STDOUT:
+13 0b1101 0xd
+25 0b11001 0x19
+31 0b11111 0x1f
+STDERR:
+>>> >>> >>> >>>
