@@ -1,0 +1,148 @@
+Mission 3 command evidence
+Commands were run in the Mac's terminal environment using the coding assistant.
+[PROJECT] and [HOME] replace private absolute paths; account and group names are [redacted].
+Process evidence includes only selected PID/name rows; executable directories are removed.
+The top output retains only the process count, timestamp, load averages and CPU usage lines.
+No process arguments, screenshots or permission changes are included. Trailing line spaces are omitted.
+
+$ open -a "Visual Studio Code" .
+Exit status: 0
+(no output)
+
+Working directory: [PROJECT]
+$ sw_vers
+Exit status: 0
+STDOUT:
+ProductName:		macOS
+ProductVersion:		27.0
+BuildVersion:		26A428
+STDERR:
+(no output)
+
+Working directory: [PROJECT]
+$ uname -m
+Exit status: 0
+STDOUT:
+arm64
+STDERR:
+(no output)
+
+Working directory: [PROJECT]
+$ id -un
+Exit status: 0
+STDOUT:
+[redacted]
+STDERR:
+(no output)
+
+Working directory: [PROJECT]
+$ df -h .
+Exit status: 0
+STDOUT:
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   926Gi   125Gi   773Gi    14%    1.5M  8.1G    0%   /System/Volumes/Data
+STDERR:
+(no output)
+
+Working directory: [PROJECT]
+$ top -l 1 -n 0
+Exit status: 0
+STDOUT:
+Processes: 571 total, 2 running, 569 sleeping, 3882 threads
+2026/11/15 19:22:58
+Load Avg: 2.29, 2.02, 1.89
+CPU usage: 6.27% user, 11.56% sys, 82.15% idle
+STDERR:
+(no output)
+
+Working directory: [PROJECT]
+$ ps -axo pid,comm
+Exit status: 0
+STDOUT:
+PID COMMAND (selected rows; executable directories removed)
+1 launchd
+401 WindowServer
+691 Finder
+26743 Terminal
+41547 Code
+42522 Safari
+STDERR:
+(no output)
+
+Working directory: [PROJECT]
+$ pwd
+Exit status: 0
+STDOUT:
+[PROJECT]
+STDERR:
+(no output)
+
+Working directory: [PROJECT]
+$ cd mission-03-operating-system
+pwd
+Exit status: 0
+STDOUT:
+[PROJECT]/mission-03-operating-system
+STDERR:
+(no output)
+
+Working directory: [PROJECT]/mission-03-operating-system
+$ cd ..
+pwd
+Exit status: 0
+STDOUT:
+[PROJECT]
+STDERR:
+(no output)
+
+Working directory: [PROJECT]/mission-03-operating-system
+$ mkdir practice
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+Working directory: [PROJECT]/mission-03-operating-system/practice
+$ printf '%s\n' 'Mission 3 permission practice.' > permissions-example.txt
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+Working directory: [PROJECT]/mission-03-operating-system/practice
+$ touch .hidden-example
+Exit status: 0
+STDOUT:
+(no output)
+STDERR:
+(no output)
+
+Working directory: [PROJECT]/mission-03-operating-system/practice
+$ ls
+Exit status: 0
+STDOUT:
+permissions-example.txt
+STDERR:
+(no output)
+
+Working directory: [PROJECT]/mission-03-operating-system/practice
+$ ls -la
+Exit status: 0
+STDOUT:
+total 8
+drwxr-xr-x@ 4 [redacted]  [redacted]  128 Nov 15 19:22 .
+drwxr-xr-x@ 5 [redacted]  [redacted]  160 Nov 15 19:22 ..
+-rw-r--r--@ 1 [redacted]  [redacted]    0 Nov 15 19:22 .hidden-example
+-rw-r--r--@ 1 [redacted]  [redacted]   31 Nov 15 19:22 permissions-example.txt
+STDERR:
+(no output)
+
+Working directory: [PROJECT]/mission-03-operating-system/practice
+$ ls -l permissions-example.txt
+Exit status: 0
+STDOUT:
+-rw-r--r--@ 1 [redacted]  [redacted]  31 Nov 15 19:22 permissions-example.txt
+STDERR:
+(no output)
