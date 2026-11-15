@@ -1,6 +1,6 @@
 # Mission 00 - Create your GitHub workspace
 
-Status: Local setup prepared. Commit and public GitHub publishing are approved and pending execution.
+Status: Complete. The public repository, setup commit and pushed files were verified on GitHub.
 
 ## 1. Task / objective
 
@@ -14,7 +14,7 @@ Prepare a repository named `digital-detective-8427`, create the required folders
 - Added the required empty `mission-05-numbers-data/number_converter.py` scaffold. No converter code or other later mission work was written.
 - Created `evidence/` with `.gitkeep` and added `.gitignore` to exclude common local files.
 - Checked Git, Python and VS Code versions, initialized Git on `main`, and verified GitHub CLI authentication for `aryangetsreal`.
-- Confirmed that GitHub could not find `aryangetsreal/digital-detective-8427` at the time of the check. Repository creation is approved and pending execution.
+- Confirmed that GitHub could not find `aryangetsreal/digital-detective-8427` at the time of the check. The public repository was then created with approval and the setup commit was pushed.
 
 Opened the project folder in Terminal and VS Code using macOS `open`; both commands succeeded. No screenshot or personal terminal output has been added.
 
@@ -40,9 +40,13 @@ Commands were run by the coding assistant inside the project. Private paths and 
 | `gh api user` | Retrieved only the public account ID and username to form the GitHub noreply address. |
 | `git config --local user.name`, `git config --local user.email`, `git var GIT_AUTHOR_IDENT` | Set and checked a privacy-safe author for this repository. |
 | `open -a "Visual Studio Code" .`, `open -a Terminal .` | Opened this project folder in the editor and Terminal; both commands succeeded. |
+| `git add` with explicit file paths, `git diff --cached --check`, `git diff --cached --stat` | Staged and reviewed the 14 approved setup files. |
+| `git commit -m "Set up Digital Detective mission structure"` | Created the dedicated Mission 0 setup commit. |
+| `gh repo create aryangetsreal/digital-detective-8427 --public --source=. --remote=origin --push` | Created the public repository, added `origin` and pushed `main`. |
+| `gh repo view`, `gh api` repository tree and commit checks, `git rev-parse HEAD` | Verified public visibility, file paths and matching local/remote setup commit hashes. |
 | `git status --short --branch`, `git diff --check` | Review the local setup and check whitespace before approval. |
 
-Approved publishing plan: stage the reviewed setup files, commit with the message below, create the public GitHub repository, push `main`, and verify the remote commit and files. These publishing steps have not been executed.
+With approval, staged the 14 reviewed setup files and created the setup commit. Created the public repository and pushed `main` using GitHub CLI. Verified the public visibility, remote commit hash and root file listing through GitHub. A separate Mission 0 documentation update records these verified results.
 
 ## 4. My understanding
 
@@ -73,19 +77,19 @@ No screenshots were taken. No passwords, tokens, full USN, private account email
 
 ## 8. Evidence / links
 
-- Planned repository URL (not yet verified): https://github.com/aryangetsreal/digital-detective-8427
-- Remote setup commit link: [Pending commit and successful push.]
-- GitHub file visibility: [Pending verification after publishing.]
+- Verified public repository: https://github.com/aryangetsreal/digital-detective-8427
+- Remote setup commit: https://github.com/aryangetsreal/digital-detective-8427/commit/121ff322def414f7e9a0b70c28e5ead7bd6a7684
+- GitHub file visibility: verified through the remote tree listing on `main`; [browse the setup files](https://github.com/aryangetsreal/digital-detective-8427/tree/121ff322def414f7e9a0b70c28e5ead7bd6a7684).
 
 ## 9. Commit details
 
-- Proposed message: `Set up Digital Detective mission structure`
+- Setup commit message: `Set up Digital Detective mission structure`
 - Scope: Mission 0 workspace, root documentation, empty later mission templates and required scaffolds only.
 - Branch: `main`.
-- Commit hash: [Pending commit creation.]
-- Push status: Not pushed; publishing approved.
-- Remote verification: [Pending successful push and comparison with the local commit.]
+- Setup commit hash: `121ff322def414f7e9a0b70c28e5ead7bd6a7684`.
+- Push status: Successful; `main` tracks `origin/main`.
+- Remote verification: GitHub reported public visibility and the same setup commit hash as the local repository. All required root folders were visible.
 
-A commit cannot contain its own final hash. After publishing, obtain the hash using `git log -1 --format=%H` and record it in the notebook or a later documentation update. Never invent a hash or mark a push successful before checking it.
+The setup commit hash above was recorded after its push was verified. This documentation correction uses the separate message `Record verified Mission 0 publishing details`. Its final hash is available from Git history; a commit cannot contain its own final hash.
 
-Mission 0 is complete only after the public repository and setup commit are verified on GitHub and the remaining student checks are confirmed. Then take a 10-minute break before starting Mission 1.
+Mission 0 setup is complete: the public repository and setup commit were verified on GitHub, and the project was opened in Terminal and VS Code. Review these notes so you can explain the work yourself. Take a 10-minute break before starting Mission 1. Missions 1–8 have not been started.

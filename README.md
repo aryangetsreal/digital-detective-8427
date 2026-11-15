@@ -17,7 +17,7 @@ Repository name: `digital-detective-8427`. The suffix matches the last four USN 
 
 | Mission | Topic | Status |
 | --- | --- | --- |
-| 00 | [Create your GitHub workspace](mission-00-setup/README.md) | Local setup prepared; publishing pending |
+| 00 | [Create your GitHub workspace](mission-00-setup/README.md) | Complete; setup commit pushed and verified |
 | 01 | [Know your computer](mission-01-computer-basics/README.md) | Not started |
 | 02 | [Become comfortable with the Terminal](mission-02-terminal/README.md) | Not started |
 | 03 | [Understand the operating system](mission-03-operating-system/README.md) | Not started |
@@ -42,10 +42,10 @@ Each completed mission must have its own meaningful commit and verified push. Th
 | VS Code | Command-line version checked: 1.146.0; project opened using `open -a "Visual Studio Code" .`. |
 | Python | Python 3.9.6 checked; used by the assistant to create and validate setup files. |
 | Git | Git 2.54.0 (Apple Git-157) checked; local repository initialized on `main`. |
-| GitHub | GitHub CLI authentication verified for `aryangetsreal`; publishing approved; repository creation and push pending. |
+| GitHub | GitHub CLI authentication verified for `aryangetsreal`; public repository created; setup commit pushed and verified on `main`. |
 
 ## Final learning summary
 
 [To be written in my own words during Mission 8 after completing the assignment.]
 
-Current checkpoint: Mission 0 is prepared locally. The setup commit, public repository and push are pending execution and verification. Take a 10-minute break after Mission 0 is complete; Mission 1 has not been started.
+Current checkpoint: Mission 0 setup is complete. The [public repository](https://github.com/aryangetsreal/digital-detective-8427) and [setup commit](https://github.com/aryangetsreal/digital-detective-8427/commit/121ff322def414f7e9a0b70c28e5ead7bd6a7684) were verified on GitHub. Take a 10-minute break after Mission 0 is complete; Mission 1 has not been started.
